@@ -6,6 +6,7 @@
         --cor-terciaria:#48CFCB;
         --font: "Nunito Sans", sans-serif;
     }
+    
     body{
         background-color: var(--cor-fundo);
         color: var(--cor-texto);
@@ -41,6 +42,24 @@
 
     nav a: :hover {
         text-decoration: unerline;
+        transform: scale(0,90);
+        transition: transform 0.1s;
+    }
+
+    .graficos-container {
+        margin: 5rem;
+    }
+
+    .graficos-container__texto {
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 2rem;
+        border: var(--cor-texto) solid 2px;
+    }
+
+    span {
+        font-weight: bold;
+        color: var(--cor-segundaria);
     }
 
     footer{
